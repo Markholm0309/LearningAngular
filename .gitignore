@@ -477,3 +477,6 @@ API/obj/Debug/net5.0/API.pdb
 API/obj/Debug/net5.0/API.dll
 API/obj/Debug/net5.0/API.csproj.CoreCompileInputs.cache
 API/obj/Debug/net5.0/ref/API.dll
+API/learningAngular.db
+API/obj/Debug/net5.0/API.assets.cache
+API/obj/Debug/net5.0/API.csprojAssemblyReference.cache
