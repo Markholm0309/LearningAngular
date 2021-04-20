@@ -1,5 +1,3 @@
-Lection 57 (Adding a home page)
-
 Todo:
     ☐ Deploy API & Client to Azure App services @started(21-04-09 10:18)
         Azure App service publisher feature for VS Code - https://www.c-sharpcorner.com/article/easily-deploy-angular-app-to-azure-from-visual-studio-code/
@@ -18,3 +16,6 @@ Client:
     ☐ Go throught parent to child, and child to parent communication @started(21-04-15 19:09)
         Lection 59 (Parent to child communication)
         Lection 60 (Child to parent communication)
+    
+    ☐ Go through Error Handling @started(21-04-20 20:07)
+        Section 7: Error Handling, lection 74-81
