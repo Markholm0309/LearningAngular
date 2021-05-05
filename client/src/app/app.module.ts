@@ -22,6 +22,9 @@ import { MemberCardComponent } from './members/member-card/member-card.component
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
+import { MatSliderModule } from '@angular/material/slider';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +40,7 @@ import { LoadingInterceptor } from './_interceptors/loading.interceptor';
     ServerErrorComponent,
     MemberCardComponent,
     MemberEditComponent,
+    PhotoEditorComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,8 @@ import { LoadingInterceptor } from './_interceptors/loading.interceptor';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    MatSliderModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
