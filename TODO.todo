@@ -6,14 +6,8 @@ Todo:
         
 
 API:
-    ☐ Go throught the videos about Data/Migrations @started(21-04-09 10:18)
-        Section 2, lection 12 - 14
-
     ☐ Write comments for TokenService @started(21-04-07 14:38)
         Section 4, Lection 42, 6:25 min. (Adding create token logic)
-
-    ☐ Implement Unit of work from Mosh @started(21-04-22 20:16)
-        https://www.youtube.com/watch?v=rtXpYpZdOzM
         
     ☐ Go throught PhotoService @started(21-05-03 11:20)
         Section 11, Lection 124 - 137  
@@ -33,9 +27,10 @@ Client:
     ☐ Go through reactive forms/validations
         Section 12: Reactive Forms, lection 140 - ? 
 
-    ☐ Woooords @started(21-06-23 12:20)
+    ☐ :/ @started(21-06-23 12:20)
         ☐ Partial
         ☐ Map
         ☐ Subscribe
         ☐ Pipe
         ☐ Event Emitter
+        ☐ Observable
