@@ -17,7 +17,6 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class AccountController : BaseApiController
     {
-        private readonly DataContext _context;
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
         private readonly UserManager<AppUser> _userManager;
