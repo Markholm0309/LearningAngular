@@ -12,7 +12,7 @@ import { AccountService } from '../_services/account.service';
 export class RegisterComponent implements OnInit {
   /** Parent to child example */
   @Input() usersFromHomeComponent: any;
-  @Output() cancelRegiser = new EventEmitter();
+  @Output() cancelRegister = new EventEmitter();
   registerForm: FormGroup;
   maxDate: Date;
   validationErrors: String[] = [];
@@ -53,6 +53,6 @@ export class RegisterComponent implements OnInit {
   }
 
   cancel() {
-    this.cancelRegiser.emit(false);
+    this.cancelRegister.emit(false);
   }
 }
