@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://learningangularapi.azurewebsites.net/api/',
-  hubUrl: 'https://learningangularapi.azurewebsites.net/hubs/'
+  apiUrl: '/api/',
+  hubUrl: '/hubs/'
 }
 /*
  * For easier debugging in development mode, you can import the following file

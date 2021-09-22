@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://learningangularapi.azurewebsites.net/api/',
-  hubUrl: 'https://learningangularapi.azurewebsites.net/hubs/'
+  apiUrl: 'https://localhost:5001/api/',
+  hubUrl: 'https://localhost:5001/hubs/'
 };
